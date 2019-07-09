@@ -5,6 +5,10 @@ figcaption {
   padding-top: 1%;
   text-align: center; }
 
+#smallest {
+  visibility: hidden;
+  color: white; }
+
 #small {
   visibility: hidden;
   color: white; }
@@ -28,15 +32,16 @@ img {
   height: auto;
   box-shadow: 10px 10px 5px white; }
 
-@media screen and (max-width: 480px) {
-  body {
-    background-color: red; } }
-@media screen and (min-width: 481px) and (max-width: 1200px) {
+@media screen and (min-width: 1px) and (max-width: 750px) { 
+  #smallest {
+    visibility: visible; } }
+
+@media screen and (min-width: 751px) and (max-width: 1200px) {
   body {
     background-color: lightblue; }
-
   #small {
     visibility: visible; } }
+
 @media screen and (min-width: 1201px) {
   #big {
     visibility: visible; }

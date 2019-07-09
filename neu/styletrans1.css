@@ -1,0 +1,32 @@
+body {
+  background-color: white; }
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+  color: green;
+  font-family: "Comic Sans MS"; }
+
+#flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.box {
+  height: 10%;
+  width: 10%; }
+  .box:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    width: 15%;
+    height: 15%; }
+
+img {
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=styletrans.css.map */
+
+/*# sourceMappingURL=styletrans1.css.map */
