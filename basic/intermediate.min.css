@@ -1,0 +1,1 @@
+.box2 img:hover{width:400px;height:400px;transition:width 2s,height 2s;transition-timing-function:ease-out}.box1,.box2,.box3{margin:30px}.box{display:flex;flex-flow:row;justify-content:center}.box3 img{transition:transform .4s ease-in-out}.box3 img:hover{transform:rotate(180deg)}.box1{border:solid #000;box-shadow:10px 10px 5px}p{color:#00f}
