@@ -3,18 +3,19 @@ figure {
 }
 
 figcaption {
+	padding-top: 1%;
 	text-align:center;
 }
 
-body {
-	border: solid red;
+#big {
+	color:green;
+	visibility: hidden;
 }
 
 .container {
 	width: 80%;
 	height:auto;
-	background-color: blue;
-	/* text-align: center;*/
+	background-color: lightgrey;
 	margin:auto;
 	display: flex;
 	flex-direction: column;
@@ -25,5 +26,23 @@ body {
 img {
 	width: 40%;
 	height: auto;
+	box-shadow: 10px 10px 5px white;
+}
 
+
+@media screen and (max-width: 480px) {
+   body {
+       background-color: lightgreen;
+   }
+}
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+   body {
+       background-color: deepskyblue;
+   }
+}
+@media screen and (min-width:1201px) {
+   #big{
+   	color:red;
+   	visibility: visible;
+   }
 }
