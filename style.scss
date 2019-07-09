@@ -1,16 +1,14 @@
+figure {
+	text-align:center;
+}
 
+figcaption {
+	text-align:center;
+}
 
 body {
 	border: solid red;
 }
-
-/* container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
-} */
 
 .container {
 	width: 80%;
@@ -27,4 +25,5 @@ body {
 img {
 	width: 40%;
 	height: auto;
+
 }
