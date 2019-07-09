@@ -1,3 +1,8 @@
+$hgcolor: lightgrey;
+$background-color: lightblue;
+$font-color: white;
+
+
 figure {
 	text-align:center;
 }
@@ -7,9 +12,14 @@ figcaption {
 	text-align:center;
 }
 
+#small {
+	visibility:hidden;
+	color: $font-color;
+}
+
 #big {
-	color:green;
-	visibility: hidden;
+	visibility:hidden;
+	color: $font-color;
 }
 
 .container {
@@ -37,12 +47,20 @@ img {
 }
 @media screen and (min-width: 481px) and (max-width: 1200px) {
    body {
-       background-color: deepskyblue;
+       background-color: $background-color;
+   }
+   #small {
+   	visibility:visible;
    }
 }
 @media screen and (min-width:1201px) {
    #big{
-   	color:red;
    	visibility: visible;
+   }
+   .container{
+   	background-color: $background-color;
+   }
+   body {
+   	background-color: $hgcolor;
    }
 }

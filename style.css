@@ -5,9 +5,13 @@ figcaption {
   padding-top: 1%;
   text-align: center; }
 
+#small {
+  visibility: hidden;
+  color: white; }
+
 #big {
-  color: green;
-  visibility: hidden; }
+  visibility: hidden;
+  color: white; }
 
 .container {
   width: 80%;
@@ -29,10 +33,18 @@ img {
     background-color: lightgreen; } }
 @media screen and (min-width: 481px) and (max-width: 1200px) {
   body {
-    background-color: deepskyblue; } }
+    background-color: lightblue; }
+
+  #small {
+    visibility: visible; } }
 @media screen and (min-width: 1201px) {
   #big {
-    color: red;
-    visibility: visible; } }
+    visibility: visible; }
+
+  .container {
+    background-color: lightblue; }
+
+  body {
+    background-color: lightgrey; } }
 
 /*# sourceMappingURL=style.css.map */
